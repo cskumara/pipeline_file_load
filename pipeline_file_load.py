@@ -4,9 +4,9 @@ from datetime import date
 from snowflake.connector.pandas_tools import write_pandas
 
 con = snowflake.connector.connect(
-    user = 'kumarancs',
-    password = 'Csk@00109',
-    account = 'fwjavza-cw15656'
+    user = <<username>>,
+    password = <<password>>,
+    account = <<accountname>>
 )
 
 cs = con.cursor()
